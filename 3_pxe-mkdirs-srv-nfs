@@ -1,0 +1,2 @@
+mkdir -p /srv/nfs/${PI_NAME}
+mkdir -p /srv/tftpboot/${PI_SERIAL}

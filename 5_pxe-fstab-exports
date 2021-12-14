@@ -1,0 +1,2 @@
+echo "/srv/nfs/${PI_NAME}/boot /srv/tftpboot/${PI_SERIAL} none defaults,bind 0 0" >> /etc/fstab
+echo "/srv/nfs/${PI_NAME} *(rw,sync,no_subtree_check,no_root_squash)" >> /etc/exports

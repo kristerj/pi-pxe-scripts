@@ -1,0 +1,2 @@
+touch /srv/nfs/${PI_NAME}/boot/ssh
+sed -i /UUID/d /srv/nfs/${PI_NAME}/etc/fstab

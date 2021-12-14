@@ -1,0 +1,1 @@
+mount /srv/tftpboot/${PI_SERIAL}/

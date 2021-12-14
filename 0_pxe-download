@@ -1,0 +1,4 @@
+mkdir /tmp/pxestuff
+cd /tmp/pxestuff
+wget -O raspbian_lite_latest.zip https://downloads.raspberrypi.org/raspbian_lite_latest
+unzip raspbian_lite_latest.zip

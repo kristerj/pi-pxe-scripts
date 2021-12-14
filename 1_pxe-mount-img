@@ -1,0 +1,5 @@
+cd /tmp/pxestuff
+kpartx -a -v *.img
+mkdir {bootmnt,rootmnt}
+mount /dev/mapper/loop0p1 bootmnt/
+mount /dev/mapper/loop0p2 rootmnt/

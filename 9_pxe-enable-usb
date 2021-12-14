@@ -1,0 +1,1 @@
+echo "dtoverlay=dwc2,dr_mode=host" >> /srv/nfs/boot/${PI_SERIAL}/config.txt

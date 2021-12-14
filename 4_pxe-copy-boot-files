@@ -1,0 +1,6 @@
+cp -a /media/krister/rootfs/* /srv/nfs/${PI_NAME}
+cp -a /media/krister/boot/* /srv/nfs/${PI_NAME}/boot/
+rm /srv/nfs/${PI_NAME}/boot/start4.elf
+rm /srv/nfs/${PI_NAME}/boot/fixup4.dat
+wget https://github.com/raspberrypi/rpi-firmware/raw/stable/start4.elf -P /srv/nfs/${PI_NAME}/boot/
+wget https://github.com/raspberrypi/rpi-firmware/raw/stable/fixup4.dat -P /srv/nfs/${PI_NAME}/boot/
